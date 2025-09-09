@@ -2,7 +2,7 @@
 #include <vector>
 using namespace std;
 
-// Function to generate Pascal's Triangle up to n rows
+// Function to generate Pascal's Triangle 
 vector<vector<int>> generatePascalsTriangle(int n) {
     vector<vector<int>> triangle;
     if (n <= 0) return triangle; // Edge case: no rows
@@ -17,11 +17,5 @@ vector<vector<int>> generatePascalsTriangle(int n) {
     return triangle;
 }
 
-// Utility function to print Pascal's Triangle
-void printTriangle(const vector<vector<int>> &triangle) {
-    for (const auto &row : triangle) {
-        for (int val : row) cout << val << " ";
-        cout << endl;
-    }
-}
+
 

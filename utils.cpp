@@ -30,3 +30,10 @@ void printModes(const vector<int> &modes) {
     }
     cout << endl;
 }
+//Task 5
+void printTriangle(const vector<vector<int>> &triangle) {
+    for (const auto &row : triangle) {
+        for (int val : row) cout << val << " ";
+        cout << endl;
+    }
+}
