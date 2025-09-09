@@ -21,3 +21,12 @@ bool compareVectors(const vector<int>& a, const vector<int>& b) {
     }
     return true;
 }
+
+void printModes(const vector<int> &modes) {
+    if (modes.empty()) {
+        cout << "None";
+    } else {
+        for (int val : modes) cout << val << " ";
+    }
+    cout << endl;
+}
