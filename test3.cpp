@@ -10,7 +10,7 @@ void test1() {
     int key = 2;
     vector<int> expected = {1, 3, 5};
     vector<int> result = findAllIndices(arr, size, key);
-    cout << "Test 1 - Multiple occurrences: ";
+    cout << "Multiple occurrences: ";
     cout << (compareVectors(result, expected) ? "PASS" : "FAIL") << endl;
 }
 
@@ -21,7 +21,7 @@ void test2() {
     int key = 2;
     vector<int> expected = {};  // empty vector expected
     vector<int> result = findAllIndices(arr, size, key);
-    cout << "Test 2 - Key absent: ";
+    cout << "Key absent: ";
     cout << (compareVectors(result, expected) ? "PASS" : "FAIL") << endl;
 }
 
@@ -32,7 +32,7 @@ void test3() {
     int key = 1;
     vector<int> expected = {};  // empty vector expected
     vector<int> result = findAllIndices(arr, size, key);
-    cout << "Test 3 - Empty array: ";
+    cout << "Empty array: ";
     cout << (compareVectors(result, expected) ? "PASS" : "FAIL") << endl;
 }
 

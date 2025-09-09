@@ -3,7 +3,7 @@
 #include "task4.cpp"  
 using namespace std;
 
-// ---------- Test Cases ----------
+// Test Cases
 void test1() {
     string text = "hello world";
     string pattern = "hello";
@@ -11,8 +11,8 @@ void test1() {
 }
 
 void test2() {
-    string text = "openai rocks";
-    string pattern = "rocks";
+    string text = "Nust is good";
+    string pattern = "good";
     cout << "Test 2 - Pattern at End: " << findSubstring(text, pattern) << endl;
 }
 
@@ -28,7 +28,7 @@ void test4() {
     cout << "Test 4 - Empty Pattern: " << findSubstring(text, pattern) << endl;
 }
 
-// ---------- Main Function ----------
+
 int main() {
     test1();
     test2();
